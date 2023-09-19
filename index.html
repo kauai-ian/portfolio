@@ -1,26 +1,23 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="media.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="media.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300;0,5..1200,400;0,5..1200,500;0,5..1200,600;0,5..1200,700;0,5..1200,800;1,5..1200,300;1,5..1200,400;1,5..1200,500;1,5..1200,600;1,5..1200,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
     <header>
       <div class="main-photo-container">
-        <h1 class="name">Ian <br>Tierney</h1>
+        <h1 class="name">Ian Tierney</h1>
       </div>
       <section class="about-me">
-        <h2>About Me</h2>
+        <h2>About me</h2>
         <p class="about-me">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum omnis,
           magnam ex voluptatibus dolor vel iste sunt doloremque labore fugit
@@ -29,21 +26,18 @@
           debitis vitae. Deleniti animi magnam eos nisi dolores dicta, mollitia
           quidem odit non amet.
         </p>
-        <div class="icon-container ">
+        <div class="icon-container">
           <img
             class="icon"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
           />
           <img
             class="icon"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
           />
         </div>
       </section>
-      <svg class="triangle" height="1000" width="1000">
-            <polygon points="0,0 800,0 0,400"/>
-      </svg>
-      <div class="triangle3"></div>
+      <div class="triangle"></div>
     </header>
     <main>
       <div class="main-wrapper">
@@ -51,15 +45,16 @@
         <div class="project-container">
           <section class="project card">
             <div class="screenshot color1">screenshot of project</div>
-            <div class="content blue">
-              <div class="title red">
+            <div class="content">
+              <div class="title">
                 <h3>Project name</h3>
-                <div class="project-icon-container green">
+                <div class="project-icon-container">
                   <img
                     class="project-icon"
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
                   />
-                  <img class="project-icon"
+                  <img
+                    class="project-icon"
                     src="imgs/open-in-new.svg"
                     alt="Icon open external link"
                     srcset=""
@@ -83,7 +78,8 @@
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
                   />
                   <img
-                    src="imgs/open-in-new.svg"
+                  class="project-icon"  
+                  src="imgs/open-in-new.svg"
                     alt="Icon open external link"
                     srcset=""
                   />
@@ -105,7 +101,7 @@
                     class="project-icon"
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
                   />
-                  <img
+                  <img class="project-icon"
                     src="imgs/open-in-new.svg"
                     alt="Icon open external link"
                     srcset=""
@@ -128,7 +124,7 @@
                     class="project-icon"
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
                   />
-                  <img
+                  <img class="project-icon"
                     src="imgs/open-in-new.svg"
                     alt="Icon open external link"
                     srcset=""
@@ -151,7 +147,7 @@
                     class="project-icon"
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
                   />
-                  <img
+                  <img class="project-icon"
                     src="imgs/open-in-new.svg"
                     alt="Icon open external link"
                     srcset=""
@@ -174,7 +170,7 @@
                     class="project-icon"
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
                   />
-                  <img
+                  <img class="project-icon"
                     src="imgs/open-in-new.svg"
                     alt="Icon open external link"
                     srcset=""
@@ -197,14 +193,19 @@
           Please get in touch if you think our work could be mutually
           beneficial!
         </p>
-        <address>1234 Random Road <br> Random Town, California 12345</address>
-        <br>
+        <address>
+          1234 Random Road <br />
+          Random Town, California 12345
+        </address>
+        <br />
         <div class="telephone">
           <img src="imgs/phone-hangup.svg" alt="Telephone icon" />
           555-555-5555
         </div>
         <div class="email">
-          <img src="imgs/email-outline.svg" alt="Email icons" /><a href="">ian@example.com</a>
+          <img src="imgs/email-outline.svg" alt="Email icons" /><a href=""
+            >ian@example.com</a
+          >
         </div>
         <div class="footer-icon-container">
           <img
@@ -213,11 +214,15 @@
           />
           <img
             class="icon"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
           />
         </div>
       </section>
-      <img src="imgs/barrel portal.webp" alt="closing photo" class="closing-photo" />
+      <img
+        src="imgs/barrel portal.webp"
+        alt="closing photo"
+        class="closing-photo"
+      />
     </footer>
   </body>
 </html>
