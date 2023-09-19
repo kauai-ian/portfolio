@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -28,7 +29,7 @@
           debitis vitae. Deleniti animi magnam eos nisi dolores dicta, mollitia
           quidem odit non amet.
         </p>
-        <div class="icon-container">
+        <div class="icon-container ">
           <img
             class="icon"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
@@ -39,27 +40,26 @@
           />
         </div>
       </section>
-      <div class="triangle"></div>
-      <div class="triangle2"></div>
-      <svg class="triangle" height="400" width="500">
-            <polygon points="0,0 500,0 0,400"/>
+      <svg class="triangle" height="1000" width="1000">
+            <polygon points="0,0 800,0 0,400"/>
       </svg>
+      <div class="triangle3"></div>
     </header>
     <main>
       <div class="main-wrapper">
-        <h2>My Work</h2>
+        <h2>My work</h2>
         <div class="project-container">
           <section class="project card">
             <div class="screenshot color1">screenshot of project</div>
-            <div class="content">
-              <div class="title">
+            <div class="content blue">
+              <div class="title red">
                 <h3>Project name</h3>
-                <div class="project-icon-container">
+                <div class="project-icon-container green">
                   <img
                     class="project-icon"
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
                   />
-                  <img
+                  <img class="project-icon"
                     src="imgs/open-in-new.svg"
                     alt="Icon open external link"
                     srcset=""
@@ -164,6 +164,29 @@
               </p>
             </div>
           </section>
+          <section class="project card">
+            <div class="screenshot color1">screenshot of project</div>
+            <div class="content">
+              <div class="title">
+                <h3>Project name</h3>
+                <div class="project-icon-container">
+                  <img
+                    class="project-icon"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
+                  />
+                  <img
+                    src="imgs/open-in-new.svg"
+                    alt="Icon open external link"
+                    srcset=""
+                  />
+                </div>
+              </div>
+              <p class="description">
+                Short description of the project. Just a couple of sentences
+                will do.
+              </p>
+            </div>
+          </section>
         </div>
       </div>
     </main>
@@ -174,14 +197,14 @@
           Please get in touch if you think our work could be mutually
           beneficial!
         </p>
-        <address>1234 Random Road Random Town, California 12345</address>
+        <address>1234 Random Road <br> Random Town, California 12345</address>
+        <br>
         <div class="telephone">
           <img src="imgs/phone-hangup.svg" alt="Telephone icon" />
           555-555-5555
         </div>
         <div class="email">
-          <img src="imgs/email-outline.svg" alt="Email icons" />
-          ian@example.com
+          <img src="imgs/email-outline.svg" alt="Email icons" /><a href="">ian@example.com</a>
         </div>
         <div class="footer-icon-container">
           <img
@@ -194,7 +217,7 @@
           />
         </div>
       </section>
-      <img src="" alt="closing photo" class="" />
+      <img src="imgs/barrel portal.webp" alt="closing photo" class="closing-photo" />
     </footer>
   </body>
 </html>
